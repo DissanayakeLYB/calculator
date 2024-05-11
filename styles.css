@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:rgb(229, 229, 226);
+    background-color:#e4e9ec;
 }
 
 .cal{
@@ -15,7 +15,16 @@
 .display{
     width: 25vw;
     height: 20vh;
-    background-color:rgb(111, 112, 118);
+    background-color:#7b939b;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    box-shadow: none;
+    flex: 1;
+    font-size: 45px;
+    position:relative;
+    bottom:0;
 }
 
 .line{
@@ -26,11 +35,12 @@
 .numpad{
     width:6.25vw;
     height: 6.25vw;
-    background-color:rgb(188, 188, 182);
+    background-color:#fbf3ef;
     text-align: center;
     align-items: center;
     font-size: large;
     border: none;
+    color: #4d7f90;
 }
 
 .numpad:hover{
@@ -43,11 +53,15 @@
     scale: 0.96;
 }
 
-
 .numpad_sym{
-    background-color:rgb(158, 158, 153);
+    background-color:#e4e9ec;
 }
 
 .numpad_new{
-    background-color:rgb(239, 140, 47);
+    background-color:#fc6464;
+    color: white;
+}
+
+.symbols{
+    font-size:x-large;
 }
