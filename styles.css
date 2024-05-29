@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:#e4e9ec;
+    background-color:#c5e4e7;
 }
 
 .cal{
     position: absolute;
     right:37vw;
     top: 5vh;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 5px black;
     
 }
 
